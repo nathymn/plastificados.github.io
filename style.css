@@ -295,7 +295,7 @@ footer p {
 }
         /*/
 
-    @media screen and (min-width: 1920px) {
+    @media (min-width: 1920px) {
         
           .logo{
             margin-left: 42%;
