@@ -270,16 +270,6 @@ strong {
     box-shadow: 4px 4px 4px #CCC;
 }
 
-
-
-
-
-
-
-
-
-
-
 footer {
     text-align: center;
     background: url("img/bg.png");
@@ -304,3 +294,63 @@ footer p {
 	margin: 0 5rem 2rem  0;
 }
         /*/
+
+    @media screen and (min-width: 1920px) {
+        
+          .logo{
+            margin-left: 42%;
+          }    
+
+          .sobre {
+            padding-left: 30rem;
+          }
+
+          .sobre img{
+            width: 10rem;
+          }
+
+          .sobre li{
+            padding-right: 41rem;
+          }
+
+          nav a{
+            font-size: 27px;
+          }
+
+        .titulo-principal{
+            margin-left: 28rem;
+            font-size: 65px;
+            width: 62rem;
+        }
+
+        .textos p{
+            font-size: 22px;
+            line-height: 23px;
+            width: 95%;
+        }
+
+        .titulo:first-child{
+            font-size: 72px;
+        }
+
+        .itens{
+            font-size: 23px;
+        }
+
+        .lista-beneficios{
+            width: 155%;
+        }
+
+        .video{
+            margin-left: 5rem;
+
+        }
+
+        .video iframe {
+            width: 230%;
+            height: 700px;
+        }
+
+   
+        
+}
